@@ -2,20 +2,17 @@ version: '3.8'
 
 services:
   # ----------------
-  # Vite React Frontend (Dev server)
+  # Frontend (Vite + React)
   # ----------------
   frontend:
-    image: node:18-alpine
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
     container_name: scrumpoker_frontend
     working_dir: /app
+    command: sh -c "npm run build"
     volumes:
       - ./frontend:/app
-      - /app/node_modules
-    command: sh -c "npm install --silent || true && npm run dev -- --host 0.0.0.0"
-    ports:
-      - "5173:5173"
-    environment:
-      - CHOKIDAR_USEPOLLING=true
     networks:
       - scrumpoker_net
 
@@ -100,7 +97,7 @@ services:
       - scrumpoker_net
 
   # ----------------
-  # Keycloak (Identity Provider) - dev mode
+  # Keycloak (Identity Provider)
   # ----------------
   keycloak:
     image: quay.io/keycloak/keycloak:24.0.0

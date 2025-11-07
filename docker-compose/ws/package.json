@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start:dev": "ts-node-dev --respawn src/index.ts"
+    "start:dev": "ts-node-dev --respawn src/index.mjs"
   },
-  "dependencies": {},
   "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "globals": "^16.5.0",
+    "prettier": "^3.6.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.0.0"
   }

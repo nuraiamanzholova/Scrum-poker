@@ -9,26 +9,11 @@ services:
       context: ./frontend
       dockerfile: Dockerfile
     container_name: scrumpoker_frontend
-    working_dir: /app
-    command: sh -c "npm install && npm run build"
-    volumes:
-      - ./frontend:/app
-    networks:
-      - scrumpoker_net
-
-  # ----------------
-  # Nginx für Frontend
-  # ----------------
-  nginx_frontend:
-    image: nginx:stable-alpine
-    container_name: scrumpoker_nginx_frontend
     ports:
       - "8082:80"
+    working_dir: /app
     volumes:
-      - ./nginx/conf.d/frontend.conf:/etc/nginx/conf.d/default.conf:ro
-      - ./frontend/dist:/usr/share/nginx/html:ro
-    depends_on:
-      - frontend
+      - ./frontend:/app
     networks:
       - scrumpoker_net
 

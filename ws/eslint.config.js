@@ -1,16 +1,16 @@
-import pkg from "eslint";
+import js from "@eslint/js";
 import globals from "globals";
 
-const { defineConfig } = pkg;
-
-export default defineConfig({
-    files: ["**/*.{js,mjs,cjs}"],
-    extends: ["eslint:recommended"],
-    languageOptions: {
-        globals: globals.browser,
-        ecmaVersion: 2021,
-        sourceType: "module",
+export default [
+    {
+        files: ["**/*.{js,mjs,cjs}"],
+        languageOptions: {
+            globals: globals.browser,
+        },
+        plugins: { js },
+        rules: {
+            "no-unused-vars": "warn",
+            "no-console": "off",
+        },
     },
-    rules: {
-    },
-});
+];

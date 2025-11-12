@@ -13,11 +13,12 @@
     "dev:build": "tsc -p ./tsconfig-cli.json",
     "format": "prettier --write './src/**/*.{js,jsx,ts,tsx,css,scss,md,json}' ",
     "format:check": "prettier --check './src/**/*.{js,jsx,ts,tsx,css,scss,md,json}'",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test": "eslint ."
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
-    "eslint": "^8.57.1",
+    "eslint": "^9.39.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
     "globals": "^16.5.0",

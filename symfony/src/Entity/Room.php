@@ -29,6 +29,9 @@ class Room
     #[ORM\OneToMany(targetEntity: RoomUser::class, mappedBy: 'room')]
     private Collection $roomUsers;
 
+    #[ORM\Column]
+    private ?bool $isPublic = null;
+
     public function __construct()
     {
         $this->roomUsers = new ArrayCollection();
@@ -101,6 +104,18 @@ class Room
                 $roomUser->setRoom(null);
             }
         }
+
+        return $this;
+    }
+
+    public function isIsPublic(): ?bool
+    {
+        return $this->isPublic;
+    }
+
+    public function setIsPublic(bool $isPublic): static
+    {
+        $this->isPublic = $isPublic;
 
         return $this;
     }

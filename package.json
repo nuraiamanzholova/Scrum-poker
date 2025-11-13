@@ -3,14 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start:dev": "ts-node-dev --respawn src/index.mjs",
-    "build": "vite build",
-    "preview": "vite preview",
     "lint": "eslint . && npm run format:check",
     "lint:fix": "npm run lint -- --fix",
-    "dev:add-app": "node ./bin/addApp.js",
-    "dev:update-app": "node ./bin/updateApp.js",
-    "dev:build": "tsc -p ./tsconfig-cli.json",
     "format": "prettier --write './{frontend,websocket,symfony}/**/*.{js,jsx,ts,tsx,css,scss,md,json,php}' --ignore-path .prettierignore ",
     "format:check": "prettier --check './{frontend,websocket,symfony}/**/*.{js,jsx,ts,tsx,css,scss,md,json,php}' --ignore-path .prettierignore ",
     "prepare": "husky",
@@ -25,9 +19,8 @@
     "globals": "^16.5.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.2.6",
-    "prettier": "^3.6.2",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^5.0.0"
+    "prettier": "^3.6.2"
+  
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix"

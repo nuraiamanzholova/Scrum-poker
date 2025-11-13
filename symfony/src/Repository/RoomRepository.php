@@ -2,7 +2,7 @@
 
 namespace App\Repository;
 
-    use App\Entity\Room;
+             use App\Entity\Room;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 

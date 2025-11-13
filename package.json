@@ -11,12 +11,14 @@
     "dev:add-app": "node ./bin/addApp.js",
     "dev:update-app": "node ./bin/updateApp.js",
     "dev:build": "tsc -p ./tsconfig-cli.json",
-    "format": "prettier --write './src/**/*.{js,jsx,ts,tsx,css,scss,md,json,php}' ",
-    "format:check": "prettier --check './src/**/*.{js,jsx,ts,tsx,css,scss,md,json,php}'",
-    "prepare": "husky"
+    "format": "prettier --write './{frontend,websocket,symfony}/**/*.{js,jsx,ts,tsx,css,scss,md,json,php}' --ignore-path .prettierignore ",
+    "format:check": "prettier --check './{frontend,websocket,symfony}/**/*.{js,jsx,ts,tsx,css,scss,md,json,php}' --ignore-path .prettierignore ",
+    "prepare": "husky",
+    "prettier": "prettier"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
+    "@prettier/plugin-php": "^0.24.0",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",

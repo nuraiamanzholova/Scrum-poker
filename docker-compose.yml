@@ -10,10 +10,11 @@ services:
       dockerfile: Dockerfile
     container_name: scrumpoker_frontend
     ports:
-      - "8082:80"
+      - "5173:5173"
     working_dir: /app
     volumes:
-      - ./frontend:/app
+       - ./frontend:/app
+       - /app/node_modules  # verhindert Überschreiben der Module
     networks:
       - scrumpoker_net
 

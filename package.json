@@ -1,13 +1,12 @@
 {
-      "name": "scrum-poker",
+  "name": "scrum-poker",
   "version": "1.0.0",
-  "type": "module",
   "scripts": {
     "lint": "eslint . && npm run format:check",
     "lint:fix": "npm run lint -- --fix",
     "format": "prettier --write './{frontend,websocket,symfony}/**/*.{js,jsx,ts,tsx,css,scss,md,json,php}' --ignore-path .prettierignore ",
     "format:check": "prettier --check './{frontend,websocket,symfony}/**/*.{js,jsx,ts,tsx,css,scss,md,json,php}' --ignore-path .prettierignore ",
-    "prepare": "husky",
+    "prepare": "node .husky/install.mjs",
     "prettier": "prettier"
   },
   "devDependencies": {

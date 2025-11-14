@@ -1,6 +1,7 @@
 {
   "name": "scrum-poker",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "lint": "eslint . && npm run format:check",
     "lint:fix": "npm run lint -- --fix",

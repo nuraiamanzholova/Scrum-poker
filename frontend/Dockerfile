@@ -13,14 +13,5 @@ COPY . .
 # Vite Build ausführen
 RUN npm run build
 
-# --- 2. Production Stage (Nginx) ---
-FROM nginx:stable-alpine
-
-# Vite-Build-Ergebnis vom vorherigen Stage kopieren
-COPY --from=builder /app/dist /usr/share/nginx/html
-
-# Optional: eigene Nginx-Konfiguration (wenn du Routing brauchst)
-# COPY nginx.conf /etc/nginx/conf.d/default.conf
-
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+# Vite Dev Server starten, auf 0.0.0.0, damit es von außen erreichbar ist
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c29f7b34c3afa3cd680720e58ce4c71a",
+    "content-hash": "23421e8116b79d6533506f1faa5e7234",
     "packages": [
         {
             "name": "doctrine/cache",
@@ -7114,114 +7114,6 @@
     ],
     "packages-dev": [
         {
-            "name": "ccinn/composer-husky-plugin",
-            "version": "v0.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/whiteCcinn/composer-husky-plugin.git",
-                "reference": "815623c34991991e998572abca8208c07295838c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/whiteCcinn/composer-husky-plugin/zipball/815623c34991991e998572abca8208c07295838c",
-                "reference": "815623c34991991e998572abca8208c07295838c",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.1 || ^2.0",
-                "ext-json": "*"
-            },
-            "require-dev": {
-                "composer/composer": "^1.6.5 || ^1.7.0 || ^1.8.0 || ^2.0"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "Husky\\Plugins\\HuskyPlugin"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Husky\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "caiwenhui",
-                    "email": "471113744@qq.com",
-                    "homepage": "https://github.com/whiteCcinn",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Husky-php composer plugin",
-            "keywords": [
-                "composer-husky-plugin",
-                "composer-plugin",
-                "husky-php"
-            ],
-            "support": {
-                "issues": "https://github.com/whiteCcinn/composer-husky-plugin/issues",
-                "source": "https://github.com/whiteCcinn/composer-husky-plugin/tree/v0.2.0"
-            },
-            "time": "2021-08-06T15:36:19+00:00"
-        },
-        {
-            "name": "ccinn/husky-php",
-            "version": "v0.4.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/whiteCcinn/husky-php.git",
-                "reference": "5dabd40d79854fc5d820f46b8da714d6144ecc25"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/whiteCcinn/husky-php/zipball/5dabd40d79854fc5d820f46b8da714d6144ecc25",
-                "reference": "5dabd40d79854fc5d820f46b8da714d6144ecc25",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "php": ">=8.0",
-                "symfony/console": "^5.4|^6",
-                "symfony/filesystem": "^5.4|^6"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.13",
-                "phpunit/phpunit": "^9.5"
-            },
-            "bin": [
-                "husky-php",
-                "sh/husky-default-pre-commit"
-            ],
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "App\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "caiwenhui",
-                    "email": "471113744@qq.com"
-                }
-            ],
-            "description": "Similar to js-husky client git hook implementation",
-            "homepage": "https://github.com/whiteCcinn/husky-php",
-            "keywords": [
-                "husky",
-                "php"
-            ],
-            "support": {
-                "docs": "https://github.com/whiteCcinn/husky-php",
-                "issues": "https://github.com/whiteCcinn/husky-php/issues",
-                "source": "https://github.com/whiteCcinn/husky-php"
-            },
-            "time": "2023-01-09T03:23:09+00:00"
-        },
-        {
             "name": "masterminds/html5",
             "version": "2.10.0",
             "source": {
@@ -9570,5 +9462,5 @@
         "ext-iconv": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.2.0"
 }

@@ -36,7 +36,4 @@ yarn-error.log*
 next-env.d.ts
 
 # Ganze .idea ignorieren
-.idea/
-
-#Husky ignoriegen
-.husky
+.idea/!/symfony/Keycloak Notiz

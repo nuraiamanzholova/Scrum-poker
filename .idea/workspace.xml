@@ -5,58 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5231c095-2f4e-440e-a3a2-b6a017d5192f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/eslint.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/NotFound.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Room.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/tsconfig.node.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.husky/pre-commit" beforeDir="false" afterPath="$PROJECT_DIR$/.husky/pre-commit" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.husky/pre-commit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.prettierignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/eslint.config.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/react.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/vite.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/vite.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/config/preload.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/config/preload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/migrations/Version20251110132103.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/migrations/Version20251110132103.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/src/Entity/Room.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/src/Entity/Room.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/src/Repository/RoomRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/src/Repository/RoomRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/src/Repository/RoomUserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/src/Repository/RoomUserRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/src/Repository/TestRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/src/Repository/TestRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/src/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/src/Repository/UserRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/tests/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/tests/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ws/.prettierignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ws/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/config/packages/knpu_oauth2_client.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/config/packages/knpu_oauth2_client.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ws/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ws/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ws/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ws/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +194,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Merging daniel",
+    "git-widget-placeholder": "daniel",
     "last_opened_file_path": "/home/stotzki/Projekte/Scrum-poker",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -285,7 +236,7 @@
       <updated>1762339600045</updated>
       <workItem from="1762339601280" duration="31237000" />
       <workItem from="1762857082754" duration="24293000" />
-      <workItem from="1763127946211" duration="3232000" />
+      <workItem from="1763127946211" duration="6176000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,24 @@
+{
+  "name": "scrum-poker",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint . && npm run format:check",
+    "lint:fix": "npm run lint -- --fix",
+    "format": "prettier --write './{frontend,websocket,symfony}/**/*.{js,jsx,ts,tsx,css,scss,md,json,php}' --ignore-path .prettierignore ",
+    "format:check": "prettier --check './{frontend,websocket,symfony}/**/*.{js,jsx,ts,tsx,css,scss,md,json,php}' --ignore-path .prettierignore ",
+    "prepare": "node .husky/install.mjs",
+    "prettier": "prettier"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@prettier/plugin-php": "^0.24.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "globals": "^16.5.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.6",
+    "prettier": "^3.6.2"
+  }
+}

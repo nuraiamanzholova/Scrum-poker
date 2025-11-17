@@ -2,9 +2,9 @@ knpu_oauth2_client:
   clients:
     keycloak:
       type: keycloak
-      auth_server_url: "http://keycloak:8080"   # NICHT /realms/... anhängen
-      realm: "scrumpoker"                       # Name deines Realms
-      client_id: "symfony"
-      client_secret: "%env(KEYCLOAK_CLIENT_SECRET)%"
+      auth_server_url: "http://localhost:8081"
+      realm: "symfony-backend"
+      client_id: "symfony-backend"
+      client_secret: "%env(OAUTH_KEYCLOAK_CLIENT_SECRET)%"
       redirect_route: connect_keycloak_check
       use_state: true

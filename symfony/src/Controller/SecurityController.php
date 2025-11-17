@@ -8,7 +8,6 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Attribute\AsController;
 use Symfony\Component\Routing\Annotation\Route;
 
-
 class SecurityController extends AbstractController
 {
     #[Route('/connect/keycloak', name: 'connect_keycloak')]

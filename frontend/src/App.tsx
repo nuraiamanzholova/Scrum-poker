@@ -14,6 +14,7 @@ export default function App() {
             <main className="content">
                 <Routes>
                     <Route path="/" element={<Home />} />
+                    <Route path="/home" element={<Home />} />
                     <Route path="/login" element={<Login />} />
                     <Route path="/room" element={<Room />} />
                     <Route path="*" element={<NotFound />} />

@@ -56,7 +56,7 @@ export default function Room() {
     }
 
     return (
-        <>
+        <div className="room">
             <div className="room-login">
                 <input
                     type="text"
@@ -83,6 +83,6 @@ export default function Room() {
             </section>
 
             <button onClick={handleDeleteCookie}>Cookie löschen</button>
-        </>
+        </div>
     )
 }

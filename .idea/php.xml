@@ -154,9 +154,11 @@
       <path value="$PROJECT_DIR$/symfony/vendor/phpseclib/phpseclib" />
       <path value="$PROJECT_DIR$/symfony/vendor/psr/http-client" />
       <path value="$PROJECT_DIR$/symfony/vendor/stevenmaguire/oauth2-keycloak" />
+      <path value="$PROJECT_DIR$/symfony/vendor/ccinn/husky-php" />
+      <path value="$PROJECT_DIR$/symfony/vendor/ccinn/composer-husky-plugin" />
     </include_path>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.5" />
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
   </component>

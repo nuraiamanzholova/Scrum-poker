@@ -19,6 +19,6 @@ class SecurityController extends AbstractController
     #[Route('/connect/keycloak/check', name: 'connect_keycloak_check')]
     public function check(): Response
     {
-        return $this->redirectToRoute('home');
+        return $this->redirect('http://localhost:5173/');
     }
 }

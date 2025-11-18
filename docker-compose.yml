@@ -15,7 +15,6 @@ services:
     working_dir: /app
     volumes:
        - ./frontend:/app
-       - /app/node_modules  # verhindert Überschreiben der Module
     networks:
       - scrumpoker_net
 

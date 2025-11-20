@@ -4,8 +4,5 @@ namespace KnpU\OAuth2ClientBundle\Client;
 
 class ClientRegistry
 {
-
-  public function getClient(string $string)
-  {
-  }
+    public function getClient(string $string) {}
 }

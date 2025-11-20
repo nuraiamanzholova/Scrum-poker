@@ -2,7 +2,4 @@
 
 namespace Symfony\Component\HttpFoundation;
 
-class Response
-{
-
-}
+class Response {}

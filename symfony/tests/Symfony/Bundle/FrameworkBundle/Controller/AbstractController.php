@@ -2,7 +2,4 @@
 
 namespace Symfony\Bundle\FrameworkBundle\Controller;
 
-class AbstractController
-{
-
-}
+class AbstractController {}

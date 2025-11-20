@@ -2,7 +2,4 @@
 
 namespace Symfony\Component\HttpKernel\Attribute;
 
-class AsController
-{
-
-}
+class AsController {}

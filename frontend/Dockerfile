@@ -5,10 +5,9 @@
 FROM node:20-alpine AS builder
 WORKDIR /app
 # Package-Dateien kopieren und Abhängigkeiten installieren
-COPY package*.json ./
-RUN npm install
-# Restliche Dateien kopieren
 COPY . .
+RUN npm ci
+# Restliche Dateien kopieren
 EXPOSE 5173
 CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
 

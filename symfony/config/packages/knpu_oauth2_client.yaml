@@ -2,9 +2,9 @@ knpu_oauth2_client:
   clients:
     keycloak:
       type: keycloak
-      auth_server_url: "http://localhost:8081"
+      auth_server_url: "http://127.0.0.1:8080"
       realm: "symfony-backend"
       client_id: "symfony-backend"
       client_secret: "%env(OAUTH_KEYCLOAK_CLIENT_SECRET)%"
       redirect_route: connect_keycloak_check
-      use_state: true
+      use_state: false

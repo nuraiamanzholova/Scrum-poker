@@ -6,7 +6,8 @@
       "dev": "vite",
         "build": "vite build",
         "lint": "eslint .",
-        "preview": "vite preview"
+        "preview": "vite preview",
+      "start:dev": "webpack-dev-server --open --config webpack/webpack.config.dev.js"
   },
   "devDependencies": {
        "@eslint/js": "^9.39.1",

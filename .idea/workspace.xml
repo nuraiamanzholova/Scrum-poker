@@ -5,23 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5231c095-2f4e-440e-a3a2-b6a017d5192f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/symfony/.env-example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ws/index.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Scrum-poker.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeception.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/conf.d/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/conf.d/default.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony/.env" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/config/packages/knpu_oauth2_client.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/config/packages/knpu_oauth2_client.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/migrations/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/migrations/Version20251110132103.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/migrations/Version20251112140903.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/migrations/Version20251113095133.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/src/Controller/SecurityController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/src/Entity/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony/src/Repository/UserRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/.env.dev" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/.env.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/Keycloak Notiz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/bin/console" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/bin/phpunit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/tests/KnpU/OAuth2ClientBundle/Client/ClientRegistry.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/tests/KnpU/OAuth2ClientBundle/Client/ClientRegistry.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/tests/Symfony/Bundle/FrameworkBundle/Controller/AbstractController.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/tests/Symfony/Bundle/FrameworkBundle/Controller/AbstractController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/tests/Symfony/Component/HttpFoundation/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/tests/Symfony/Component/HttpFoundation/Response.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/tests/Symfony/Component/HttpKernel/Attribute/AsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/tests/Symfony/Component/HttpKernel/Attribute/AsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony/tests/Symfony/Component/Routing/Annotation/Route.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfony/tests/Symfony/Component/Routing/Annotation/Route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ws/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ws/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ws/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ws/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ws/src/index.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ws/tsconfig.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,28 +223,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "daniel",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/home/stotzki/Projekte/Scrum-poker",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "php.override.implement.member.chooser.php.doc": "NONE",
-    "prettierjs.PrettierConfiguration.Package": "/home/stotski/Projekte/Scrum-poker/node_modules/prettier",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "/snap/phpstorm/567/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/stotzki/Projekte/Scrum-poker&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/home/stotski/Projekte/Scrum-poker/node_modules/prettier&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/snap/phpstorm/567/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -259,7 +276,7 @@
       <workItem from="1762339601280" duration="31237000" />
       <workItem from="1762857082754" duration="24293000" />
       <workItem from="1763127946211" duration="6176000" />
-      <workItem from="1764317625547" duration="1251000" />
+      <workItem from="1764317625547" duration="1927000" />
     </task>
     <servers />
   </component>

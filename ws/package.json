@@ -1,16 +1,16 @@
 {
-  "name": "ws",
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-      "dev": "vite",
+    "name": "ws",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
         "build": "vite build",
         "lint": "eslint .",
         "preview": "vite preview",
-      "start:dev": "webpack-dev-server --open --config webpack/webpack.config.dev.js"
-  },
-  "devDependencies": {
-       "@eslint/js": "^9.39.1",
+        "start:dev": "webpack-dev-server --open --config webpack/webpack.config.dev.js"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.39.1",
         "@types/react": "^19.1.16",
         "@types/react-dom": "^19.1.9",
         "@vitejs/plugin-react": "^5.0.4",
@@ -20,5 +20,5 @@
         "globals": "^16.5.0",
         "husky": "^9.1.7",
         "vite": "^7.1.7"
-  }
+    }
 }

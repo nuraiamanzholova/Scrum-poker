@@ -11,20 +11,20 @@ services:
     volumes:
       - ./frontend:/app
       - /app/node_modules
-    network_mode: host
 
   symfony:
     build:
-      context: ./symfony
+      context: ./symfony3
       dockerfile: Dockerfile
     container_name: scrumpoker_symfony
     working_dir: /var/www/html
     volumes:
       - ./symfony:/var/www/html
+      - /var/www/html/vendor
     environment:
       PHP_DISPLAY_ERRORS: 1
       PHP_MEMORY_LIMIT: 512M
-    network_mode: host
+    
 
   nginx_symfony:
     image: nginx:stable-alpine
@@ -34,7 +34,7 @@ services:
       - ./symfony:/var/www/html:ro
     depends_on:
       - symfony
-    network_mode: host
+  
 
   ws:
     build:
@@ -55,7 +55,7 @@ services:
       DATABASE_NAME: scrumpoker
     depends_on:
       - mysql
-    network_mode: host
+  
 
   mysql:
     image: mysql:8.0
@@ -68,7 +68,7 @@ services:
       MYSQL_PASSWORD: 123
     volumes:
       - mysql_data:/var/lib/mysql
-    network_mode: host
+  
 
   keycloak-postgres:
     image: postgres:15
@@ -79,7 +79,7 @@ services:
       POSTGRES_PASSWORD: keycloakpass
     volumes:
       - keycloak_db_data:/var/lib/postgresql/data
-    network_mode: host
+  
 
   keycloak:
     image: quay.io/keycloak/keycloak:24.0.0
@@ -97,7 +97,7 @@ services:
       - keycloak-postgres
     volumes:
       - keycloak_data:/opt/keycloak/data
-    network_mode: host
+  
 
 volumes:
   mysql_data:

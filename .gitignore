@@ -37,3 +37,5 @@ next-env.d.ts
 # Ganze .idea ignorieren
 .idea/!/symfony/Keycloak Notiz
 .idea
+.symfony
+symfony/ 

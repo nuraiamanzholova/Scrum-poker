@@ -1,5 +1,5 @@
 <?php
-
+/*
 namespace App\Security;
 
 use Symfony\Component\HttpFoundation\RedirectResponse;
@@ -46,7 +46,7 @@ class LoginFormAuthenticator extends AbstractLoginFormAuthenticator
       return new RedirectResponse($targetPath);
     }
 
-    /** @var \App\Entity\User $user */
+    
     $user = $token->getUser();
 
     // <<<<< HIER leitest du ins Frontend weiter
@@ -65,3 +65,4 @@ class LoginFormAuthenticator extends AbstractLoginFormAuthenticator
         return $this->urlGenerator->generate(self::LOGIN_ROUTE);
     }
 }
+*/
